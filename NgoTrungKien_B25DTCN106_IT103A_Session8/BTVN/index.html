@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReactJS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div id="header">
+            <a href="">Trang chủ</a>
+            <a href="">Giới thiệu</a>
+            <a href="">Tính năng</a>
+            <a href="">Liên hệ</a>
+        </div>
+    </header>
+    <div class="body">
+        <div id="info">
+            <h2>ReactJS-Thư viện JavaScript hiện đại <br>Xây dựng dao diện mạnh mẽ</h2>
+            <p>Khám phá sức mạnh của ReactJS với kiến trúc component-based và virtual DOM hiệu quả</p>
+            <div id="button">
+                <a id="button-1" href="">Bắt đầu ngay</a>
+                <a id="button-2" href="">Tìm hiểu thêm</a>
+            </div>
+        </div>
+        <div class="gioithieu">
+            <div id="gioithieu">
+                <h2>Giới thiệu về ReactJS</h2>
+                <div id="content">
+                    <div class="circle"></div>
+                    <div id="text">
+                        <strong>Giờ làm việc</strong>
+                        <p>8:00 - 22:00 (Tất cả các ngày trong tuần)</p>
+                    </div>
+                </div>
+                <div id="content-2">
+                    <div class="circle-2"></div>
+                    <div id="text">
+                        <strong>Phạm vi hỗ trợ:</strong>
+                        <p id="gach">Toàn quốc - Hỗ trợ học tập trực tuyến</p>
+                    </div>
+                    <div class="content-2">
+                       <p> ReactJS là thư viện JavaScript mã nguồn mở được phát triển bởi Facebook,
+                        chuyên dùng để xây dựng giao diện người dùng tương tác cao. Với kiến trúc 
+                        componet-based, ReactJS giúp lập trình viên tạo ra các ứng dụng web phức tạp một cách dễ dàng và hiệu 
+                        quả. ReactJS sử dụng Virtual DOM để tối ưu hiệu 
+                        năng, cho phép cập nhật giao diện, nhanh chóng và mượt mà mà không cần reload toàn bộ trang web.</p>
+                    </div>  
+                </div>
+            </div>
+
+        </div>
+        <div class="show">
+            <h1>Các dự án sử dụng ReactJS</h1>
+            <div class="image-show">
+                    <img src="./a1.jpg" alt="">
+                    <img src="./a2.jpg" alt="">
+                    <img src="./a3.jpg" alt="">
+                    <img src="./a4.jpg" alt="">
+                    <img src="./a5.jpg" alt="">
+            </div>
+        </div>
+        <div class="feature">
+            <h2>Tính năng nổi bật của ReactJS</h2>
+            <div class="content-3">    
+                <div class="in-content">
+                    <strong>Component-Based Architecture</strong>
+                    <p>Xây dựng ứng dụng từ các componet độc lập, có thể tái sử dụng. Mỗi componet quản lý state riêng và kết hợp lại tạo thành giao diện phức tạp</p>
+                </div>
+            </div>
+            <div class="content-3">
+                <div class="in-content">
+                    <strong>Virtual DOM</strong>
+                    <p>Sử dụng Virtual DOM để tối ưu hiệu năng. React chỉ cập nhập những phần thay đổi thực sự trên giao diện, giúp ứng dụng chạy nhanh hơn.</p>
+                </div>
+            </div>
+            <div class="content-3">
+                <div class="in-content">
+                    <strong>JSX Syntax</strong>
+                    <p>Cú pháp JSX cho phép viết HTML trong JavaScript một cách tự nhiên, dễ đọc và dễ bảo trì code hơn.</p>
+                </div>
+            </div>
+            <div class="content-3">
+                <div class="in-content">
+                    <strong>One-Way Data Binding</strong>
+                    <p>Luồng dữ liệu một chiều giúp code dễ debug và kiểm soát. Dữ liệu truyền từ componet cha xuống componet con thông qua props.</p>
+                </div>
+            </div>
+            <form action="">
+                <h1>Đăng ký học ReactJS</h1>
+                <div class="input">
+                    <p>Họ tên:</p>
+                    <input type="text">
+                </div>
+                <div class="input">
+                    <p>Email:</p>
+                    <input type="email" placeholder="email@example.com">
+                </div>
+                <div class="input">
+                    <p>Phiên bản phổ bạn thích</p>
+                    <input type="radio" id="radio-1" name="radio" >
+                    Class Componet (truyền thống)
+                    <br>
+                    <br>
+                    <input type="radio" id="radio-2" name="radio" >
+                    Functional Componet với Hooks (hiện đại)
+                </div>
+                <div class="input">
+                    <p>Mức độ học vấn</p>
+                    <select name="" id="select">
+                        <option value="Trung bình">Trung bình</option>
+                        <option value="Trung cấp">Trung cấp</option>
+                        <option value="Cao đẳng">Cao đẳng</option>
+                        <option value="Đại học">Đại học</option>
+                        <option value="Sau đại học">Sau đại học</option>
+                    </select>
+                </div>
+                <div class="input">
+                    <p>Framework/Library quan tâm(chọn nhiều):</p>
+                    <div class="checkbox">
+                        <input type="checkbox" id="checkbox-1">
+                        Redux - Quản lý state
+                    </div>
+                     <div class="checkbox">
+                        <input type="checkbox" id="checkbox-1">
+                        React Router - Điều hướng
+                    </div>
+                     <div class="checkbox">
+                        <input type="checkbox" id="checkbox-1">
+                        Material UI - Thư viện UI
+                    </div>
+                     <div class="checkbox">
+                        <input type="checkbox" id="checkbox-1">
+                        Next.js - Framework SSR
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="checkbox-1">
+                        TypeScript - Typed JavaScript
+                    </div>
+                </div>
+                <div class="input">
+                    <p>Ý kiến hoặc góp ý của bạn:</p>
+                    <div id="textarea">
+                        <textarea name="" id="" placeholder="Bạn nghĩ sao về ReactJS"></textarea>
+                    </div>
+                </div>
+                <div class="button-3">
+                    <button type="submit">Gửi đăng ký</button>
+                </div>
+                
+            </form>
+        </div>
+        <div class="sub">
+            <div id="subin">
+                <h1>Lợi ích khi học ReactJS</h1>
+                <div id="tips">
+                    <p>⚡ ReactJS là công nghệ quan trong nhất để trở thành Front-end Developer chuyên nghiệp!</p>
+                </div>
+            </div>
+            <div class="table" >
+                <table cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>STT</th>
+                            <th>Lợi ích</th>
+                            <th>Mô tả chi tiết</th>
+                            <th>Ứng dụng thực tế</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Hiệu năng cao</td>
+                            <td>Virtual DOM và reconciliation algorithm</td>
+                            <td>Ứng dụng web tương tác mượt mà</td>
+                        </tr>
+                        <tr class="tbback">
+                            <td>2</td>
+                            <td>Dễ học, dễ sử dụng</td>
+                            <td>Cú pháp đơn giản, tài liệu phong phú</td>
+                            <td>Tiết kiệm thời gian phát triển</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Componet tái sử dụng</td>
+                            <td>Xây dựng UI từ các Componet độc lập</td>
+                            <td>code sạch, dễ bảo trì và mở rộng</td>
+                        </tr>
+                        <tr class="tbback">
+                            <td>4</td>
+                            <td>Cộng đồng lớn mạnh</td>
+                            <td>Hàng triệu developer trên toàn thế giới</td>
+                            <td>Dễ tìm giải pháp và hỗ trợ</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>React Native</td>
+                            <td>Phát triển app mobile với cùng kiến thức</td>
+                            <td>Một kỹ năng, nhiều nền tảng</td>
+                        </tr>
+                        <tr class="tbback">
+                            <td>6</td>
+                            <td>Cơ hội việc làm cao</td>
+                            <td>Nhu cầu tuyển dụng lớn, lương cao</td>
+                            <td>Định hướng nghề nghiệp rõ ràng</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div> 
+    <footer>
+        <div class="footer">
+            <h2>ReactJS Learning Platform</h2>
+            <p>Nền tảng học ReactJS toàn diện với giáo trình từ cơ bản đến nâng cao</p>
+            <p>Liên hệ: contac@reactjs-learn.com | Hotline: 1900-xxxx</p>
+            <hr>
+            <h4>&copy 2026 ReactJS Learning Platfrom. All rights reserved.</h4>
+        </div>
+    </footer>
+</body>
+</html>
